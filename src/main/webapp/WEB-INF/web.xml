@@ -16,17 +16,11 @@
         </init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-
-
-    <servlet-mapping>
-        <servlet-name>JerseyAPI</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping> 
 	
-	<!--<servlet-mapping>
+	<servlet-mapping>
 		<servlet-name>jersey-serlvet</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
-	</servlet-mapping>-->
+	</servlet-mapping>
 	<filter>
        <filter-name>tpaFilter</filter-name>
        <filter-class>com.bmw.tpa.filter.TpaFilter</filter-class>
